@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>上传萌照_1</title>
+
+<style type="text/css">
+body{
+	margin:0 auto;
+	padding:0px;
+
+	}
+.jingxi{
+	height:100%;
+	width:100%;
+	background:url(images/bg_g.jpg) center center no-repeat;
+	background-size:100% 100%;
+	}
+.login{
+	width:30%;
+	height:15%;
+	background:url(images/haluo.png) center center no-repeat;
+	background-size:100% 100%;
+	position:relative;
+	left:33.5%;
+	top:6%;
+	}
+.photo{
+	height:90%;
+	width:90%;
+	margin:0 5%;
+	position:absolute;
+	left:0%;
+	top:5%;
+	background:url(images/bg_2.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.photo_bg{
+	position:absolute;
+	left:10%;
+	top:35%;
+	width:80%;
+	height:50%;
+
+	}
+.wenzi{
+	width:70%;
+	height:7%;
+	position:absolute;
+	top:28.5%;
+	left:12%;
+	background:url(images/foin.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.bg_1{
+	width:100%;
+	height:45%;
+	position:absolute;
+	left:0%;
+	bottom:0%;
+	background:url(images/shnag.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.music{
+	width:10%;
+	height:6%;
+	position:absolute;
+	right:5%;
+	top:2%;
+	background:url(images/music.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.sub{
+	width:100%;
+	height:100%;
+	position:relative;
+	top:50%;
+	left:20%;
+	text-align:center;
+	}
+.sub .bady{
+	width:60%;
+	height:25%;
+	background:url(images/hai.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.sub a{
+	position:absolute;
+	left:0%;
+	top:13%;
+	width:65%;
+	height:12%;
+		animation:LBJ_1 2s ease infinite;
+	}
+.images{
+	width:100%;
+	height:100%;
+	max-width:100%;
+	}
+.inp{
+	position:absolute;
+	left:14%;
+	top:2%;
+	width:100%;
+	height:100%;
+	}
+.uploadphotoe{
+	 display:block;
+	 width:80%;
+	 height:50%;
+	 line-height:100%;
+	 color:#333;
+	 text-align:center;
+	 background:#f2f2f2; 
+	text-decoration:none; 
+	 }
+.shui{
+	position:absolute;
+	bottom:15%;
+	left:0%;
+	width:50%;
+	height:30%;
+	background:url(images/shui_bg.png) center center no-repeat;
+	background-size:100% 100%;
+	animation: LBJ 1.5s 1s infinite alternate;
+	}
+@keyframes LBJ{
+	0%{
+	 transform:scale(1.2,1.2); 
+	}
+	100%{
+	 transform:scale(1.1,1.1);
+	 }	
+	}
+@keyframes LBJ_1{
+	0%{
+	
+	}
+	50%{
+	 transform:scale(1.2,1.2); 
+	}
+	100%{
+
+	 }	
+	}
+</style>
+</head>
+
+<body>
+<div class="jingxi" id="jingxi">
+<div class="photo_bg">
+<div class="pho"><img class="images" src="images/photo_bg.png"></div>
+</div>
+
+<div class="photo">
+</div>
+<div class="wenzi"></div>
+<div class="login"></div>
+<div class="bg_1"></div>
+<div class="music"></div>
+<div class="sub">   <!--上传萌照-->
+<div class="bady"></div>
+<div class="butt"><a href="jingxi.html"><img class="images" src="images/meng.png"></a></div>
+</div>
+<div class="shui"></div>
+
+</div>
+
+<script>
+document.getElementsByTagName('div')[0].style.height=screen.height+"px";
+/*<!--setTimeout(function(){    window.location.reload();}, 1000);-->*/
+</script>
+
+
+</body>
+</html>

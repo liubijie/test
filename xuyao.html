@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>立即炫耀</title>
+<style type="text/css">
+body{
+	margin:0px;
+	padding:0px;
+	}
+
+.xyao{
+	height:100%;
+	width:100%;
+	background:url(images/XY_bg.jpg) center center no-repeat;
+	background-size:100% 100%;
+	}
+.login{
+	width:30%;
+	height:15%;
+	background:url(images/haluo.png) center center no-repeat;
+	background-size:100% 100%;
+	position:relative;
+	left:33.5%;
+	top:6%;
+	}
+.bg_1{
+	width:100%;
+	height:45%;
+	position:absolute;
+	left:0%;
+	bottom:0%;
+	background:url(images/shnag.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.music{
+	width:10%;
+	height:6%;
+	position:absolute;
+	right:5%;
+	top:2%;
+	background:url(images/music.png) center center no-repeat;
+	background-size:100% 100%;
+	}
+.lbj{
+	width:100%;
+	position:absolute;
+	left:25%;
+	bottom:12%;
+	clear:both;
+	}
+.lbj a{
+	width:30%;
+	height:30%;
+	float:left;
+	margin-right:2%;
+	}
+.images{
+	width:100%;
+	height:100%;
+	max-width:100%;
+	}
+.li_1{
+	animation: LBJ 1.5s 1s infinite alternate;
+	}
+.li_2{
+	animation: LBJ_2 1.5s 1s infinite alternate;
+	}
+@keyframes LBJ{
+	0%{
+	 transform:scale(1.2,1.2); 
+	}
+	100%{
+	 transform:scale(1.1,1.1);
+	 }	
+	}
+@keyframes LBJ_2{
+	0%{
+	 transform:scale(1.1,1.1); 
+	}
+	100%{
+	 transform:scale(1.2,1.2);
+	 }
+	}
+</style>
+</head>
+
+<body>
+<div class="xyao">
+<div class="login"></div>
+<div class="bg_1"></div>
+<div class="music"></div>
+<div class="lbj">
+<div class="li_1"><a href="#" target="_blank"><img class="images" src="images/xyao.png"></a></div>
+<div class="li_2"><a href="#" target="_blank"><img class="images" src="images/gmai.png"></a></div>
+</div>
+</div>
+
+<script>
+document.getElementsByTagName('div')[0].style.height=screen.height+"px";
+/*<!--setTimeout(function(){    window.location.reload();}, 1000);-->*/
+</script>
+
+
+</body>
+</html>
